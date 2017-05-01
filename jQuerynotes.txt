@@ -1,0 +1,95 @@
+FCC lessons starting with: "Target Elements by Class Using jQuery".
+
+Getting confused with jQuery. 
+Code is:
+
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+  });
+ 
+</script>
+
+So we have the "button" element, and we're adding a class to it. I guess it would be like
+<button class="animated bounce"> ?? I don't know wtf i'm doing. Where is "animated bounce" specified?? 
+
+==============
+ 
+ ok so this is in the html: 
+      <div class="well" id="left-well">
+      So we add this at the top in the <script>:
+      
+       $(".well").addClass("animated shake");
+       
+       So it's like adding a class to a class??? Ok maybe it's more like telling a class of an element to do something. 
+       Ok so this worked. That's good but it's really obnoxious.
+==================
+html:
+<button class="btn btn-default target" id="target3">#target3</button>
+
+<script>:
+    $("#target3").addClass("animated fadeOut");
+Hash mark (#) grabs an "id" of an element.
+
+======================
+Maybe they should have told me this in the fucking beginning?!
+
+Now you know three ways of targeting elements: 
+by type: $("button"), 
+by class: $(".btn"), 
+by id $("#target1").
+
+======================
+So done separately, it looks like this:
+
+<script>
+  $(document).ready(function() {
+    
+$("button").addClass("animated");
+$(".btn").addClass("shake");
+$("#target1").addClass("btn-primary");
+
+  });
+</script>
+
+HTML looks like this:
+
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <h4>#left-well</h4>
+      <div class="well" id="left-well">
+        <button class="btn btn-default target" id="target1">#target1</button>
+        <button class="btn btn-default target" id="target2">#target2</button>
+        <button class="btn btn-default target" id="target3">#target3</button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>#right-well</h4>
+      <div class="well" id="right-well">
+        <button class="btn btn-default target" id="target4">#target4</button>
+        <button class="btn btn-default target" id="target5">#target5</button>
+        <button class="btn btn-default target" id="target6">#target6</button>
+      </div>
+    </div>
+  </div>
+</div>
+============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+      
+      
