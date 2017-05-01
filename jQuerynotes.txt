@@ -76,7 +76,28 @@ HTML looks like this:
   </div>
 </div>
 ============================
+This adds the <em> tags to the <h3> element: 
+  $("h3").html("<em>jQuery Playground</em>");
+This:
+$("#target4").html("<em>#target4</em>");
 
+adds <em>text</em> to this button with the id of target4:
+
+<button class="btn btn-default target" id="target4">#target4</button>
+===========================
+HTML:
+        <button class="btn btn-default target" id="target4">#target4</button>
+        
+This removes the WHOLE ELEMENT (in this case, the <button> with this id:
+  $("#target4").remove();
+==========================
+
+$("#target1").parent().css("background-color", "red");
+
+affects the <div> which is the PARENT of target1:
+        <div class="well" id="left-well">
+          <button class="btn btn-default target" id="target1">#target1</button>
+  
 
 
 
