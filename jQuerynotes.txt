@@ -97,9 +97,17 @@ $("#target1").parent().css("background-color", "red");
 affects the <div> which is the PARENT of target1:
         <div class="well" id="left-well">
           <button class="btn btn-default target" id="target1">#target1</button>
+=======================
+$("#right-well").children().css("color","orange");
+
   
-
-
+ <div class="well" id="right-well">
+        <button class="btn btn-default target" id="target4">#target4</button>
+        <button class="btn btn-default target" id="target5">#target5</button>
+        <button class="btn btn-default target" id="target6">#target6</button>
+      </div>
+      
+===========================
 
 
 
