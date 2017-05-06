@@ -13,6 +13,11 @@ img {
 margin-left: 30%
 }
 
+.header3 {
+  font-size: 25px;
+  color: #301206;
+}
+
 .main {
   background-color: #fff;
   border: 18px #522915;
