@@ -1,0 +1,48 @@
+body {
+  background-color: #D6B9A4;
+  color: #301206;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  text-shadow: 1px 2px #cdc9c9;
+}
+
+img {
+  padding-left: 15%;
+}
+
+a:link {
+  color: #301206;
+}
+a:visited {
+  color: #522915;
+}
+.quote {
+  font-family: times new roman;
+  font-style: italic;
+}
+
+.header3 {
+  font-size: 20px;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Domine', serif;
+  /* was f1ece2 */
+  background-color: #fff;
+  border: 18px #522915;
+  border-style: outset;
+  width: 80%;
+  padding: 15px;
+  margin-left: 8%;
+}
+
+.flex-item-image {
+  padding-left: 20%;
+}
