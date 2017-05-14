@@ -22,5 +22,8 @@ http://s3.freefoto.com/images/09/02/09_02_2_web.jpg
 http://www.pptback.com/uploads/love-heart-chocolate-backgrounds-powerpoint.jpg
 
 
+final on: http://peanutsunday.byethost18.com/tribute/index.html
 
+localhost is /tribute/index.html
+Looks great in Chrome, meh in Firefox, ok on phone (LG G3)
 
