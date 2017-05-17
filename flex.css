@@ -1,0 +1,21 @@
+.navbar-container {
+display: flex;
+justify-content: space-around;
+background-color: #5995da;
+padding: 20px 0;
+
+}
+
+.navbar {
+border: 3px solid black;
+width: 900px;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.body-container {
+  background-color: lightgray;
+}
